@@ -1,0 +1,15 @@
+{
+  "name": "resume-analyzer",
+  "version": "1.0.0",
+  "description": "AI Resume Analyzer — Full Stack App",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "setup": "npm run install:all && echo '\\n✅ Setup complete! Follow README.md to configure your .env file.'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
